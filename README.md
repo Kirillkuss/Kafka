@@ -1,22 +1,21 @@
 # Kafka
- * End points:  
+End points:  
 
-   http://localhost:8082/webjars/swagger-ui/index.html#/  
-   http://127.0.0.1:8081/swagger-ui/index.html#/ 
+http://localhost:8082/webjars/swagger-ui/index.html#/  
+http://127.0.0.1:8081/swagger-ui/index.html#/
+   
+Тестовый проект, где 1 REST - FebFlux, 2 REST - SpringMVC 
 
-  Тестовый проект, где 1 REST - FebFlux, 2 REST - SpringMVC 
+БД - jdbc:postgresql://localhost:5432/postgres
+password = admin
+login    = postgres
 
- БД - jdbc:postgresql://localhost:5432/postgres
- password = admin
- login    = postgres
-
-
-* CREATE TABLE Animal(
-*	id serial PRIMARY KEY,
-*	name VARCHAR( 20 ) NOT NULL,
-*	amount int8 NOT NULL,
-*	count int
-* );
+CREATE TABLE Animal(
+id serial PRIMARY KEY,
+name VARCHAR( 20 ) NOT NULL,
+amount int8 NOT NULL,
+count int
+);
 
 CREATE TABLE Person(
 	id serial PRIMARY KEY,
