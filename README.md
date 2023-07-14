@@ -4,7 +4,9 @@ End points:
 http://localhost:8082/webjars/swagger-ui/index.html#/  
 http://127.0.0.1:8081/swagger-ui/index.html#/
    
-Тестовый проект, где 1 REST - FebFlux, 2 REST - SpringMVC 
+Тестовый проект, где
+1 REST - FebFlux,
+2 REST - SpringMVC 
 
 БД - jdbc:postgresql://localhost:5432/postgres
 password = admin
