@@ -1,5 +1,5 @@
 # Kafka
- ' End points:  '
+ * End points:  
 
    http://localhost:8082/webjars/swagger-ui/index.html#/  
    http://127.0.0.1:8081/swagger-ui/index.html#/ 
